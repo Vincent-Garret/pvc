@@ -1,7 +1,7 @@
 {% extends "base.html.twig" %}
 
 {% block body %}
-    <section>
+    <section class="home">
         <div class="title d-flex justify-content-center">
             <div class="col-2">
                 <img src="{{ asset('img/logo.png') }}" alt="logo du groupe" class="img-fluid">
@@ -15,6 +15,37 @@
             <div class="col-6">
                 <img src="{{ asset('img/group3.jpg') }}" alt="Photo des membres du groupe" class="img-fluid">
             </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2>Gallerie</h2>
+    </section>
+    <section class="video">
+        <h2>Vidéos</h2>
+        <div class="clip row justify-content-center mx-0">
+            <div class="col-5">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8cEDVruDb_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-5">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gAh8lyo472M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-5">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cW_reGS1q2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="row">
+            <div class="col-6">
+                <h2>Contact</h2>
+                <p>Besoin d'infos sur les dates, les évenements? Contactez-nous </p>
+            </div>
+            <div class="col-6">
+                <form action="">
+
+                </form>
+            </div>
+
         </div>
     </section>
 {% endblock %}
