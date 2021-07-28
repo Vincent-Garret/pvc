@@ -16,6 +16,8 @@ header{
 nav{
     height: 16vh;
     background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 100;
 }
 
 ul{
@@ -39,4 +41,30 @@ a:hover{
 
 h2{
     text-align: center;
+}
+
+//footer
+.footer{
+    height: 15vh;
+}
+
+.facebook{
+    color: #fff;
+}
+.facebook:hover{
+    color: #4267B2;
+}
+
+.instagram{
+    color: #fff;
+}
+.instagram:hover{
+    fill: url(#grad1);
+}
+
+.youtube{
+    color: #fff;
+}
+.youtube:hover{
+    color: #FF0000;
 }
